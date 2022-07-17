@@ -1,0 +1,79 @@
+( first git install ke bad
+
+First Open git bash type command 
+
+git config --global user.name ""
+
+git config --global user,email ""
+
+git config --list )
+
+
+pwd   <-- yah command present director Mein pahunch Chahta Hai
+
+git init
+
+git status 
+
+git status -s
+  
+
+git add --a      
+
+git commit -m "Message type"   <-- is command se (commit) kar sakta hai
+
+git log  <-- iska kaam hai commit History Dikhta hai
+
+git log -p -1  <-- iska kaam hai (commit) filter karka dekh sakte hai (Example jaise 1 3 4 )
+
+
+clear
+
+git clone (url paste)  <-- iska kaam hai github project clone karta hai
+
+ls
+
+ls -lart  <-- iska kaam hai Hidden File show karta gai
+
+git diff           <-- yah Eddit      
+
+git diff --staged  <-- iska kaam last commit sa comper & match code changes kar ka datahai
+
+touch somad.html   <-- New Folder Create command karta hai
+
+git checkout -f    <-- code ko changes recover karna ka kam aata hai
+
+( git rm --cached text.html  <-- iska kam hai only staging area se piche la jata hai (galti se add kar diya to)
+
+git restore --staged (file name)   <-- ^  Sim kam karta hai          "           "          "       "          "        "  )
+
+git rm text.html   <-- file Complite deleted karta hai
+
+
+
+( git branch name    <-- New branch Create Kar sakta hai
+
+git checkout name  <-- Branch Change & Switched Kar sakta hai
+
+git merge day1     <-- iska kaan hai master Branch ka other branch se marge karta hai
+
+git checkout -b day2  <-- Switched to a new branch 'day2'
+
+git branch  -d Enter deletd Branch name   <-- yah command hai branch ko deletd karta hai )
+
+git mv Enter file current Enter New Name  <-- yah command File ko Rename karta hai
+
+git rm Enter File Name  <-- yah command File ko Delete Karta hai
+
+
+git push origin master     Export
+git pull origin master     Import
+
+
+
+
+
+
+
+
+(MD (File.Nmae) <--yah windows ka command hai New Folder cerate karta hai)
