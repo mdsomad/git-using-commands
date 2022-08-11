@@ -66,6 +66,11 @@ git mv Enter file current Enter New Name  <-- yah command File ko Rename karta h
 git rm Enter File Name  <-- yah command File ko Delete Karta hai
 
 
+( git branch -m Enter old Name Then Enter New Name  ) <-- Yah Command git Branch Rename Karta gai
+
+( git push origin :Entew Old Name Then Enter New Name  ) <-- Yah command GitHub Account Remote Repository Mein Upload Karta hai 
+
+
 git push origin master     Export
 git pull origin master     Import
 
