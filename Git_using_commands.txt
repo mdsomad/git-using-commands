@@ -11,14 +11,16 @@ git config --list )
 
 pwd   <-- yah command present director Mein pahunch Chahta Hai
 
-git init
+git init    <-- Yah command porject ka git ke Hawale karta gai
 
 git status 
 
 git status -s
   
 
-git add --a      
+git add --a   <--Sam kaam karta hai
+
+git add .     <--Yah do Sam kaam karta hai
 
 git commit -m "Message type"   <-- is command se (commit) kar sakta hai
 
