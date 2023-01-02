@@ -87,7 +87,7 @@ git clone (url paste)
 ls
 ```
 
-- Iska kaam hai Hidden File show karta gai   This is command
+- Iska kaam hai Hide File show karta hai   This is command
 ```sh
 ls -lart
 ```
@@ -137,7 +137,7 @@ git branch Enter name
 git checkout Enter Branch Name 
 ```
 
-- Iska kaan hai Master Branch ka Other Branch Se Marge karta hai  This is command
+- Iska kaam hai Master Branch ka Other Branch Se Marge karta hai  This is command
 ```sh
 1. yah sirf Master Branch Mein hi Kam Karega
 git merge Enter Branch Name 
