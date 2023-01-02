@@ -14,4 +14,4 @@ git init
 - Status Check
 ```sh
 git status 
-``
+```
