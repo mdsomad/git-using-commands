@@ -220,7 +220,7 @@ git rm Enter File Name
 
 - Yah Command git Branch ko Rename & NameChange Karta hai   
 ```sh
-1. First yah karne hai
+1. First yah karna hai
 git branch -m Enter old Name Then Enter New Name
 ```
 
@@ -228,7 +228,7 @@ git branch -m Enter old Name Then Enter New Name
 
 - Yah command GitHub Account Remote Repository Mein New Branch Name Ka Sath Upload & push Karta hai    
 ```sh
-2. Second yah karne hai
+2. Second yah karna hai
 git push origin :Enter Old Name Then Enter New Name
 ```
 
