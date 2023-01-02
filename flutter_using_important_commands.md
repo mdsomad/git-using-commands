@@ -55,7 +55,7 @@ keytool -list -v -keystore "C:\Users\yourname\.android\debug.keystore" -alias an
 
 - Yah hai Second Tarika SHA1 key Full details find command
 ```sh
-1.  Second Tarika find SHA1 key first step location directory C:\Program Files\Java\jdk-18.0.1.1\bin & 2.  cmd then Enter Copy command paste then Enter
+1.  Second Tarika find SHA1 key first step location directory C:\Program Files\Java\jdk-18.0.1.1\bin &   cmd then Enter Copy command paste then Enter
 
 keytool -list -v -keystore %USERPROFILE%\.android\debug.keystore -alias androiddebugkey -storepass android -keypass android
 
