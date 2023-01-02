@@ -32,12 +32,12 @@ git init
 ```
 
 
-- Status Check
+- Git Status Check
 ```sh
 git status 
 ```
 
-- Mine Status check
+- Git Mini Status check
 ```sh
 git status -s
 ```
