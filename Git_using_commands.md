@@ -42,12 +42,12 @@ git status
 git status -s
 ```
 
-- Sam kaam karta hai
+- git file ko add karta hai
 ```sh
 git add --a
 ```
 
-- Yah do Sam kaam karta hai
+- Upar wala hi Jaisa same kaam karta hai   Example this is --> git add --a
 ```sh
 git add .
 ```
