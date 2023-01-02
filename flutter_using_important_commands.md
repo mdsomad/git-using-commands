@@ -33,7 +33,7 @@ flutter build apk --split-per-abi
 - Flutter Mein keystore File generate ka On Windows command
 ```sh
 1. keystore File ka director add Karne Ka Tarika yah hai
-2. Example This is -->  keytool -genkey -v -keystore C:\Users\mdsom\upload-keystore.jks -storetype JKS 3. -keyalg RSA -keysize 2048 -validity 10000 -alias upload
+2. Example This is -->  keytool -genkey -v -keystore C:\Users\mdsom\upload-keystore.jks -storetype JKS  -keyalg RSA -keysize 2048 -validity 10000 -alias upload
 
   keytool -genkey -v -keystore %userprofile%\upload-keystore.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias upload
 ```
@@ -44,8 +44,7 @@ flutter build apk --split-per-abi
 - Yah hai First Tarika SHA1 key Full details find command   or  recommended Tarika hai
 ```sh
 1. First Tarika copy command paste VS Code Terminal then Enter
-2. command setup Example yah hai --> keytool -list -v -keystore
-3. "C:\Users\mdsom\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
+2. command setup Example yah hai --> keytool -list -v -keystore"C:\Users\mdsom\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
 
 keytool -list -v -keystore "C:\Users\yourname\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
 
