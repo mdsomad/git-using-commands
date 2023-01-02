@@ -26,7 +26,7 @@ git config --list
 pwd
 ```
 
-- Yah command porject ka git ke Hawale karta gai
+- Yah command porject ka git ke Hawale karta hai
 ```sh
 git init
 ```
