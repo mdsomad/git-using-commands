@@ -34,11 +34,6 @@ db.dropDatabase()
  show collections
 ```
 
-- Show Collections
-```sh
- show collections
-```
-
 - Create a collection named 'comments'
 ```sh
  db.createCollection('comments')
