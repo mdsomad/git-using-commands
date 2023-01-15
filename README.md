@@ -1,4 +1,5 @@
 # All MongoDb commands you will ever need (MongoDb Cheatsheet)
 
--[CodeWithHarry cheatsheet link](https://www.codewithharry.com/blogpost/mongodb-cheatsheet/)
+- [Mongodb docs manual Operators link](https://www.mongodb.com/docs/manual/reference/operator/update/)
+- [CodeWithHarry cheatsheet link](https://www.codewithharry.com/blogpost/mongodb-cheatsheet/)
 
