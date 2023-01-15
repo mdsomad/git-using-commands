@@ -29,7 +29,7 @@ db.dropDatabase()
 ```
 
 ## 2. Collection Commands
-- Show Collections
+- Show & View Collections
 ```sh
  show collections
 ```
