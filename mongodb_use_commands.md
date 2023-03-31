@@ -1,154 +1,96 @@
-# All MongoDb commands you will ever need (MongoDb Cheatsheet)
+# VS Code Shortcut key
 
 
-- First commant
+- 1: Show Suggestions
 ```sh
- mongo
+ Ctrl + Space
 ```
 
 
-## 1. Database Commands
-- View all databases
+- 2: Toggle line comment
 ```sh
-flutter build appbundle
+ Ctrl+/
 ```
 
-- Create a new or switch databases 
+
+- 3: Displays the search bar
 ```sh
-use dbName
+ Ctrl+P
 ```
 
-- View current Database 
+
+- 4: Multi cursor selection
 ```sh
-db
+ Ctrl + Shift + L
 ```
 
-- Delete Database 
+
+- 5: Toggle the sidebar
 ```sh
-db.dropDatabase()
+ Ctrl + B
 ```
 
-## 2. Collection Commands
-- All Show & View Collections
+- 6: Move line
 ```sh
- show collections
+ Alt + Up or Alt + Down
 ```
 
-- Create a collection named 'comments'
+- 7: To Open the current file
 ```sh
- db.createCollection('comments')
+ Ctrl + O
 ```
 
-- Drop & Delete a collection named 'comments'
+
+- 8: One by one selection
 ```sh
- db.comments.drop()
+ Ctrl + D
 ```
 
-## 3. Row(Document) Commands
-- Show & view all Rows in a Collection named example this --> comments
+
+- 9: Move To Explorer window [ Highlight current file ]
 ```sh
- db.comments.find()
+ Ctrl + Shift + E
 ```
 
-- Show all Rows in a Collection (Prettified) (Rows ko Behtarin Tarike se Show & View karta hai ) (or yah hai Collection ko named --> comments)
+
+- 10: Delete Line
 ```sh
- db.comments.find().pretty()
+ Ctrl + X
 ```
 
-- Find the first row matching the object  ( Only Single Row Find or yah hai Collection ko named --> comments)
+
+
+- 11: Copy paste
 ```sh
-db.comments.findOne({name: 'Somad'})
+ Ctrl + C / Ctrl + V
 ```
 
-- Insert One Row  ( Only Single Row Add & Insert or yah hai Collection ko named --> comments )
+
+
+- 12: Copy paste
 ```sh
-db.comments.insert({
-    'name': 'Somad',
-    'lang': 'JavaScript',
-    'member_since': 5
- })
+ Shift + Alt + Up/Down
 ```
 
-- Insert many Rows  ( Multiple Rows Add & Insert or yah hai Collection ko named --> comments )
+
+
+- 13: Fold or unfold code
 ```sh
-db.comments.insertMany([{
-    'name': 'Somad',
-    'lang': 'dart & JavaScript',
-    'member_since': 5
-    }, 
-    {'name': 'yasin',
-    'lang': 'JavaScript',
-    'member_since': 3
-    },
-    {'name': 'alif',
-    'lang': 'dart',
-    'member_since': 3
-    },
-    {'name': 'abul',
-    'lang': 'C#',
-    'member_since': 4
-}])
+ Shift + Shift + [or] 
 ```
 
-- Search in a MongoDb Database  (yah hai Collection ko named --> comments)
+
+
+- 14: To Open Bottom Panel and Terminal
 ```sh
-db.comments.find({lang:'dart'})
+ Ctrl + j / Ctrl + `:
 ```
 
-- Limit the number of rows in output  (yah hai Collection ko named --> comments) (limit(2) Matlab ya hai First ka do Rows hi sirf show & view Karega or app apna hisab kabhi number de sakte hai)
+
+- 15: Open Settings
 ```sh
-db.comments.find().limit(2)
+ Ctrl + ,
 ```
 
-- Count the number of rows in the output  (yah hai Collection ko named --> comments) (count() Matlab ya hai is Collection Mein Total Kitna Rows hai yahi Batata hai )
-```sh
-db.comments.find().count()
-```
 
-- Update a row  (yah hai Collection ko named --> comments) ({upsert: true} <-- Karne se yah row Agar Nahin hai Database Mein to yah add kar dega)
-```sh
-db.comments.updateOne({name:'akif'},
-{$set: {'name': 'subhan',
-    'lang': 'JavaScript',
-    'member_since': 51
-}}, {upsert: true})
-```
-
-- Mongodb Increment Operator  (yah hai Collection ko named --> comments) 
-```sh
-db.comments.update({name: 'yasin'},
-{$inc:{
-    member_since: 2
-}})
-```
-
-- Mongodb Rename Operator  (yah hai Collection ko named --> comments) 
-```sh
-db.comments.update({name: 'akif'},
-{$rename:{
-    member_since: 'member'
-}})
-```
-
-- Delete Row   (yah hai Collection ko named --> comments) 
-```sh
-db.comments.remove({name: 'abul'})
-```
-
-- Less than/Greater than/ Less than or Eq/Greater than or Eq   (yah hai Collection ko named --> comments) 
-```sh
-db.comments.find({member_since: {$lt: 90}})
-```
-
-```sh
-db.comments.find({member_since: {$lte: 90}})
-```
-
-```sh
-db.comments.find({member_since: {$gt: 90}})
-```
-
-```sh
-db.comments.find({member_since: {$gte: 90}})
-```
 
