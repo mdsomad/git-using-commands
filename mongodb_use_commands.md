@@ -53,7 +53,7 @@
 ```
 
 
-- 10: Delete Line
+- 10: Cut Line
 ```sh
  Ctrl + X
 ```
@@ -66,28 +66,34 @@
 ```
 
 
+- 12: Delete Line
+```sh
+ Ctrl + Shift + K
+```
 
-- 12: Copy paste
+
+
+- 13: Copy paste
 ```sh
  Shift + Alt + Up/Down
 ```
 
 
 
-- 13: Fold or unfold code
+- 14: Fold or unfold code
 ```sh
  Shift + Shift + [or] 
 ```
 
 
 
-- 14: To Open Bottom Panel and Terminal
+- 15: To Open Bottom Panel and Terminal
 ```sh
  Ctrl + j / Ctrl + `:
 ```
 
 
-- 15: Open Settings
+- 16: Open Settings
 ```sh
  Ctrl + ,
 ```
