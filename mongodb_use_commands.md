@@ -82,7 +82,7 @@
 
 - 14: Fold or unfold code
 ```sh
- Shift + Shift + [or] 
+ Ctrl + Shift + [or] 
 ```
 
 
@@ -93,7 +93,25 @@
 ```
 
 
-- 16: Open Settings
+- 16: To Open Bottom Problems Panel
+```sh
+ Ctrl + Shift + M
+```
+
+
+- 17: Create new terminal
+```sh
+ Ctrl + Shift + `
+```
+
+
+- 18: Go to Line detels
+```sh
+ Ctrl + G
+```
+
+
+- 19: Open Settings
 ```sh
  Ctrl + ,
 ```
