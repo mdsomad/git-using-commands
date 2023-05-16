@@ -1,120 +1,55 @@
-# VS Code Shortcut key
+# Node js Useful Libraries commands
 
 
-- 1: Show Suggestions
+- 1: Node.js New project Create Thene Run This command
 ```sh
- Ctrl + Space
+npm init
 ```
 
 
-- 2: Toggle line comment
+- 1: express js install command
 ```sh
- Ctrl+/
+npm install express
 ```
 
 
-- 3: Displays the search bar
+- 2: Node.Js GitHub Project clone Then Run This command 
 ```sh
- Ctrl+P
+npm install
 ```
 
 
-- 4: Multi cursor selection
+- 3: Install This nodemon Librarie And global install command 
 ```sh
- Ctrl + Shift + L
-```
-
-
-- 5: Toggle the sidebar
-```sh
- Ctrl + B
-```
-
-- 6: Move line
-```sh
- Alt + Up or Alt + Down
-```
-
-- 7: To Open the current file
-```sh
- Ctrl + O
-```
-
-
-- 8: One by one selection
-```sh
- Ctrl + D
-```
-
-
-- 9: Move To Explorer window [ Highlight current file ]
-```sh
- Ctrl + Shift + E
-```
-
-
-- 10: Cut Line
-```sh
- Ctrl + X
+npm install -g nodemon
 ```
 
 
 
-- 11: Copy paste
+- 4: Install This nodemon Librarie And only development mode install command 
 ```sh
- Ctrl + C / Ctrl + V
-```
-
-
-- 12: Delete Line
-```sh
- Ctrl + Shift + K
+npm install --save-dev nodemon  
 ```
 
 
 
-- 13: Copy paste
+
+- 5: Then nodemon scripts add this Example 
 ```sh
- Shift + Alt + Up/Down
+  "scripts": {
+    "start": "node src/server.mjs",
+    "dev": "nodemon src/server.mjs"    // <-- Add This Code
+  },
 ```
 
 
 
-- 14: Fold or unfold code
+- 6: nodemon scripts add complete then run this command
 ```sh
- Ctrl + Shift + [or] 
+npm run dev 
 ```
 
 
-
-- 15: To Open Bottom Panel and Terminal
-```sh
- Ctrl + j / Ctrl + `:
-```
-
-
-- 16: To Open Bottom Problems Panel
-```sh
- Ctrl + Shift + M
-```
-
-
-- 17: Create new terminal
-```sh
- Ctrl + Shift + `
-```
-
-
-- 18: Go to Line detels
-```sh
- Ctrl + G
-```
-
-
-- 19: Open Settings
-```sh
- Ctrl + ,
-```
 
 
 
