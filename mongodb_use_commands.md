@@ -156,7 +156,7 @@ db.comments.find({member_since: {$gte: 90}})
 
 
 
-```json
+```sh
 db.userdatas.update({},
          {$set : {"username":"Saomad@"}},
              {upsert:false,
