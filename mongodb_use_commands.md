@@ -152,3 +152,26 @@ db.comments.find({member_since: {$gt: 90}})
 db.comments.find({member_since: {$gte: 90}})
 ```
 
+
+
+
+
+```sh
+db.userdatas.update({},
+         {$set : {"username":"Saomad@"}},
+             {upsert:false,
+              multi:true}) 
+
+db.notes.updateMany({}, {$set:{"someField": "someValue"}})
+
+
+db.emp.ehlp
+db.emp.help()
+
+
+db.userdatas.updateMany(
+   { },
+   { $unset: { new_field: "" } }
+)
+```
+
