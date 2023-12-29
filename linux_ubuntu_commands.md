@@ -1,20 +1,20 @@
-## Linux & Ubuntu Commands lins
+## Linux & Ubuntu Commands lins  🗂️ 👈 Directory Related
 
 ### Commands Started
 
-- 👇 Yah command se current directory ka files and folder show & check kar sakte hain
+- 👇 Yah command se current directory ka files & 📁 Folder show & check kar sakte hain
 
 ```sh
 ls
 ```
 
-- 👇 Yah command se directory and folder change & Switch kar sakte hain
+- 👇 Yah command se directory & 📁folder change & Switch kar sakte hain
 
 ```sh
 cd directory_name/
 ```
 
-- 👇 Yah command se ek directory 🔙 👈 Puche Ja sakte hain
+- 👇 Yah command se ek directory 🗂️ 🔙 👈 Puche Ja sakte hain
 
 ```sh
 cd ..
@@ -50,6 +50,16 @@ cat >your_new_text_name
 gedit your_text_file_name
 ```
 
+- 👇 Yah bhi command se 📄 File create kar sakte hain
+```sh
+touch file_name
+```
+
+- 👇 Yah command se file delete ❌🗑️ kar sakte hain
+```sh
+rm file_name 
+```
+
 ### Commands End
 
 <br/>
@@ -68,7 +78,7 @@ gedit your_text_file_name
 <br/>
 <br/>
 
-## 2 Linux & Ubuntu Commands lins
+## Linux & Ubuntu Commands lins 🖥 👈 System Related
 
 ### 2 Commands Started
 
@@ -173,45 +183,192 @@ lsblk
 <br/>
 <br/>
 
-- 👇
-```sh
+## 3 Linux & Ubuntu Commands lins
+### Commands Started
 
+- 👇Yah command se pura Terminal & Screen Spasht & clear kar sakte hain
+```sh
+# Shortcut key this --> Ctrl + l
+clear
 ```
 
-- 👇
+- 👇 Yah command se 🖥 👈 Computer & machine upgrade kar sakte hain 
 ```sh
-
+sudo apt upgrade
 ```
 
-- 👇
+- 👇 Yah command se 🖥 👈 Computer & machine ka Update check kar sakte hain
 ```sh
-
+sudo apt update 
 ```
 
-- 👇
+- 👇 Yah command se koi bhi 🛠 👈 Software install kar sakte hain
 ```sh
-
+# Example This --> sudo snap install vlc
+# Example This --> sudo snap install vlc*
+sudo snap install software_name
 ```
 
-- 👇
+- 👇 Yah command se 📄 👈 File ka type check kar sakte hain
 ```sh
-
+file your_text_file_name
 ```
 
-- 👇
+- 👇 Yah command Se Kisi bhi 📄 👈 File ka size 👈 📏🤏 check kar sakte hain ki Kitna MB ka hai
 ```sh
-
+wc  your_text_file_name 
 ```
 
-- 👇
+- 👇 yah command se Text & Text ka ☰ 👈 lines ko check kar sakte hain 
 ```sh
-
+head  your_text_file_name
 ```
 
-- 👇
+- 👇 Yah command se selected Top & Upar ☰ 👈 line ka 📄 Text ko 📖 👈 👀 check & read kar sakte hain
+```sh
+tail +n 1  your_text_file_name
+```
+
+- 👇 Yah command se selected bottom & Niche ☰ 👈 line ka 📄 Text ko 📖 👈 👀 check & read kar sakte hain
+```sh
+tail -n 1  your_text_file_name 
+```
+
+- 👇 Yah command se 🗓 ⏰ 👈 Date & Time ko check kar sakte hain
+```sh
+ date
+```
+
+- 👇 Yah command se 📅 👈 Calender check kar sakte hain
+```sh
+ cal
+```
+
+- 👇 Yah command se 🖥 👈 System ka currently running Task ko check kar sakte hain
+```sh
+# Yah command se PID_Number check kar sakte hain
+ top
+```
+
+- 👇 Yah command Se Kisi bhi running task ko ⛔ 👈 band kar sakte hain
+```sh
+# PID_Number 👈 ke through hi ⛔ 👈 band Kiya Ja sakta hai 
+# 👆 Upar wala command Run Karke PID number check kar sakte hain
+ kill PID_Number
+```
+
+- 👇 Yah command se 🖥 👈 System Ka background running service & task kar check kar sakte hain
+```sh
+ ps 
+```
+
+- 👇  Yah command Se Kisi bhi running ⚙️ service ko 💪 👈 Forcefully kill🤜🏿 kar sakte hain
+```sh
+ kill -9 PID_Number
+```
+
+- 👇 Yah command se 😴 👈 Slip ⚙️ 👈 services ko check kar sakte hain
+```sh
+jobs 
+```
+
+- 👇 Yah command se Foreground ki ⚙️ 👈 service check kar sakte hain
+```sh
+ fg
+```
+
+- 👇 yah command se background ki ⚙️ 👈 service check kar sakte hain
+```sh
+ bg
+```
+### Commands End
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+## Linux & Ubuntu Commands lins 👥Users Manage related
+### Commands Started
+
+- 👇 Yah command se new 👤User create kar sakte hain 
+```sh
+ sudo useradd new_user_name_add 
+```
+
+- 👇 Yah command se new 👤User ka 🔑🔢Password set kar sakte hain
+```sh
+ sudo passwd new_user_set_password
+```
+
+- 👇 Yah command se 👤User ka 🪪 id check kar sakte hain
+```sh
+ id user_name
+```
+
+- 👇 Yah command Se Jab 🪪ID 👤User kam 🚫Na Karen Uske bad yah command se check kar sakte hain User ka 🪪Id
+```sh
+ sudo id user_name
+```
+
+- 👇 Yah command  👤User ko delete 👈🏼 ❌ 🗑 karta hai
+```sh
+ userdel enter_user_name
+```
+
+- 👇 Yah command se new 👪 Group create kar sakte hain
+```sh
+sudo groupadd new_group_name
+```
+
+- 👇 yah command se 👪 Group ko delete 👈🏼 ❌ 🗑 kar sakte hain
+```sh
+droupdel group_name
+```
+- 👇 Yah command Se root 👤User ki id check kar sakte hain
+```sh
+# Example the --> id any_user_name
+id root
+```
+- 👇 Yah command se Currently login 👤User ka temporary data check kar sakte hain
+```sh
+ls -l /tmp/
+```
+- 👇 Yah command se Currently login 👤User ka running task ko check kar sakte hain
+```sh
+ps
+```
+- 👇 Yah command default 👪Group & 👤User ka details check kar sakte hain
+```sh
+tail /etc/group
+```
+<!-- - 👇 
 ```sh
 
-```
+``` -->
+### Commands End
+
+
+
+
+
+
+
+
+
+
+
 
 <br/>
 <br/>
