@@ -1,5 +1,47 @@
-## Linux & Ubuntu Commands lins  🗂️ 👈 Directory Related
+## Linux & Ubuntu Terminal Shortcut keys
 
+```sh
+# 👇 Yah Shortcut se terminal mein likha hua text ko remove kar sakte hain
+use --> Ctrl + u
+
+# 👇 Yah shortcut se remove 👈🏼 ❌ 🗑️ Kiya Hua text ko Wapas La sakte hain
+use --> Ctrl + y
+
+# 👇 Yah shortcut to Terminal ka taxt ko sentence remove 👈🏼 ❌ 🗑️ kar sakte hain
+use --> Ctrl + w
+
+# 👇 Yah shortcut se Terminal ko clear kar sakte hain
+use --> Ctrl + l
+
+
+# 👇 Yah shortcut se Terminal ko Open kar sakte hain
+use --> Ctrl + Alt + T
+
+# 👇 Yah shortcut se Terminal ko Quit & close ear kar sakte hain
+ Ctrl + Shift + Q
+       OR
+ Ctrl + Shift + W      
+
+```
+
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+
+
+## Linux & Ubuntu Commands lins  🗂️ 👈 Directory Related
 ### Commands Started
 
 - 👇 Yah command se current directory ka files & 📁 Folder show & check kar sakte hain
@@ -20,6 +62,11 @@ cd directory_name/
 cd ..
 ```
 
+- 👇 Yah command se direct starting directory 🗂️ 🔙 👈 mein Ja sakte hain
+```sh
+cd -
+```
+
 - 👇 Yah command se home 🗂️ directory mein Ja sakte hain
 
 ```sh
@@ -32,10 +79,16 @@ cd
 mkdir your_new_folder_name
 ```
 
-- 👇 Yah command Se Kisi bhi 🗂️ Folder ko 👈🏼 ❌ 🗑 Remove & Delete kar sakte hain
+- 👇 Yah command Se Kisi bhi 📂 dir & Folder ko 👈🏼 ❌ 🗑️ Remove & Delete kar sakte hain
 
 ```sh
+# yah sirf empty 📂dir & folder ko hi delete 👈🏼 ❌ 🗑️ karta hai
 rmdir folder_name
+```
+
+- 👇 Yah command se 🗂️ dir & Folder mein data Ho tab bhi Remove & Delete 👈🏼 ❌🗑️ 💯 kar sakte hain
+```sh
+rm -rf dir-name
 ```
 
 - 👇 Yah command se 📄 Text File Create kar sakte hain
@@ -58,6 +111,11 @@ touch file_name
 - 👇 Yah command se file delete ❌🗑️ kar sakte hain
 ```sh
 rm file_name 
+```
+
+- 👇 Yah command Se Kisi bhi 🗂️directory & Folder ka Size MB 👈🏼 🤏 Mein check & Dhkh 👀 sakte hain
+```sh
+du -h dir_name 
 ```
 
 ### Commands End
