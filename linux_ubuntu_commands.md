@@ -479,7 +479,7 @@ $~~~~~~~~~~~~~~$
 
 ### Commands Started
 - [Node JS official documentation install Link](https://snapcraft.io/node)
-- [nvm install Link](https://snapcraft.io/node)
+- [nvm install Link](https://github.com/nvm-sh/nvm?tab=readme-ov-file)
 
 nvm allows you to quickly install and use different versions of node via the command line.
 
