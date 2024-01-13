@@ -59,7 +59,9 @@ nvm list-remote
 
 ```sh
 # Example Yah hai --> nvm install v16.20.2
+
 nvm install your_choice_version_add
+
 ```
 
 - 4 👇 Yah Command Sa Check kar sakte hain Node ka Current Version ko
@@ -72,7 +74,9 @@ node --version
 
 ```sh
 # Example Yah hai --> nvm use v18.20.2
+
 nvm use your_choice_version_add
+
 ```
 
 - 6 👇 Yah command se Agar system Mein multiple node.js ka version hai to selected version ko default set kar sakte hain
@@ -81,6 +85,7 @@ nvm use your_choice_version_add
 # Example yha hai --> $ nvm alias default 16.14.2
 
 nvm alias default your_choice_version_add
+
 ```
 
 ### Commands End
