@@ -489,7 +489,8 @@ cat /etc/os-release
 neofetch
 ```
 
-# Ui Images add
+## 👇 neofetch Terminal Preview  📷
+![Screenshot from 2024-01-14 12-30-16](https://github.com/mdsomad/git-using-commands/assets/103892160/d6e303b2-c387-47ca-bb8e-f19b95445f8a)
 
 - 👇 Yah command se System 🖥 🖥️ 👈 ka IP address Check & Dhkh 👀 sakte hain
 
@@ -497,7 +498,8 @@ neofetch
 ifconfig
 ```
 
-# ifconfig Rusult Ui Images add
+## 👇 ifconfig Terminal Preview 📷
+![Screenshot from 2024-01-14 12-32-37](https://github.com/mdsomad/git-using-commands/assets/103892160/cba6fee8-c8a4-4981-90eb-8d2cfd254214)
 
 - 👇 Yah bhi command se System 🖥 🖥️ 👈 ka IP address Check & Dhkh 👀 sakte hain
 
@@ -505,7 +507,8 @@ ifconfig
 ip address
 ```
 
-# ip address Rusult Ui Images add
+## 👇 ip address Terminal Preview 📷
+![Screenshot from 2024-01-14 12-34-28](https://github.com/mdsomad/git-using-commands/assets/103892160/962201c9-b175-4e37-ac3b-58932cffa5c7)
 
 - 👇 Yah command se System 🖥 🖥️ 👈 ka internet & network connectivity Check & Dhkh 👀 sakte hain
 
