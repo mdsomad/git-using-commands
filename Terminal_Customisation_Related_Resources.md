@@ -23,6 +23,7 @@ code $PROFILE
 ```
 
 - 👇 Terminal custom theme add file UI Preview 📷
+![Terminal custom theme add file Ui Preview](https://github.com/mdsomad/git-using-commands/assets/103892160/f5915298-5142-4632-8d4e-046ed638c4c8)
 
 <br/>
 <br/>
