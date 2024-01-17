@@ -39,6 +39,18 @@ use --> Ctrl + Alt + T
 
 ### Commands Started
 
+👇 yah install karne se command ka auto suggestion le sakte hain
+
+```sh
+sudo apt install fish
+```
+
+- pahle yah command run karne ke bad hi auto suggestion dega
+
+```sh
+fish
+```
+
 - 👇 Yah command se present working 📁 directory ko check kar sakte hain
 
 ```sh
@@ -119,18 +131,6 @@ locate file_&_dir_name
 
 ```sh
 history
-```
-
-- 👇
-
-```sh
-
-```
-
-- 👇
-
-```sh
-
 ```
 
 - 👇 Yah command se direct starting directory 🗂️ 🔙 👈 mein Ja sakte hain
@@ -489,7 +489,8 @@ cat /etc/os-release
 neofetch
 ```
 
-## 👇 neofetch Terminal Preview  📷
+## 👇 neofetch Terminal Preview 📷
+
 ![Screenshot from 2024-01-14 12-30-16](https://github.com/mdsomad/git-using-commands/assets/103892160/d6e303b2-c387-47ca-bb8e-f19b95445f8a)
 
 - 👇 Yah command se System 🖥 🖥️ 👈 ka IP address Check & Dhkh 👀 sakte hain
@@ -499,6 +500,7 @@ ifconfig
 ```
 
 ## 👇 ifconfig Terminal Preview 📷
+
 ![Screenshot from 2024-01-14 12-32-37](https://github.com/mdsomad/git-using-commands/assets/103892160/cba6fee8-c8a4-4981-90eb-8d2cfd254214)
 
 - 👇 Yah bhi command se System 🖥 🖥️ 👈 ka IP address Check & Dhkh 👀 sakte hain
@@ -508,6 +510,7 @@ ip address
 ```
 
 ## 👇 ip address Terminal Preview 📷
+
 ![Screenshot from 2024-01-14 12-34-28](https://github.com/mdsomad/git-using-commands/assets/103892160/962201c9-b175-4e37-ac3b-58932cffa5c7)
 
 - 👇 Yah command se System 🖥 🖥️ 👈 ka internet & network connectivity Check & Dhkh 👀 sakte hain
@@ -526,31 +529,71 @@ ping www.google.com
 hostname
 ```
 
+- 👇 Yah command se Check & Dhkh 👀 sakte hain Kisi bhi website ka sarvar tak pahunchne ke liye networking mein path follow karta hai
+
+```sh
+traceroute www.mdsomad.in
+```
+
+- 👇 Yah command Se Kisi bhi website ka IP address Check & Dhkh sakte hain
+
+```sh
+host -t a www.mdsomad.in
+```
+
 - 👇 Yah command se System 🖥 🖥️ 👈 ka host name change kar sakte hain
 
 ```sh
 hostnamectl set-hostname new-hostname
 ```
 
-- 👇
-
-```sh
-
-```
-
-- 👇
-
-```sh
-
-```
-
-- 👇
-
-```sh
-
-```
-
 ### Commands End
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+# 🖥️ 👈Server & System port related commands
+
+### How to check if a IP:PORT is accessible and open or not
+
+- 👇 Yah command se Server 🖥️ 👈 ka port check kar sakte hain open hai kya Nahin
+
+```sh
+telnet ip port
+```
+
+- 👇 Yah command se server ka selected port check kar sakte hain open & LISTEN hai kya Nahin
+
+```sh
+# How to check if PORT is open or not on our server?
+
+netstat -putan | grep 80
+```
+
+- 👇 Yah command in Linux server ko reboot🔄 & restart kar sakte hain
+
+```sh
+reboot
+```
+
+- 👇 Yah command in Linux server ko off⛔ & shutdown kar sakte hain
+
+```sh
+shutdown
+```
 
 <br/>
 <br/>
@@ -589,6 +632,12 @@ sudo apt upgrade
 
 ```sh
 sudo apt update
+```
+
+- 👇 Yah command se bhi 🖥 👈 Computer & machine ka Update check kar sakte hain
+
+```sh
+sudo apt-get update
 ```
 
 - 👇 Yah command se koi bhi 🛠 👈 Software install kar sakte hain
@@ -708,16 +757,10 @@ jobs
 
 ### Commands Started
 
-- 👇 Yah command se new 👤User create kar sakte hain
+- 👇 Yah command se login 👤User ko check kar sakte hain
 
 ```sh
-
-```
-
-- 👇 Yah command se new 👤User create kar sakte hain
-
-```sh
-
+whoami
 ```
 
 - 👇 Yah command se new 👤User create kar sakte hain
@@ -787,7 +830,38 @@ ps
 tail /etc/group
 ```
 
+- 👇 Yah command se date and time check kar sakte hain
+
+```sh
+date
+
+# Result --> Thursday 04 January 2024 07:51:32 PM IST
+```
+
+- 👇 Yah command se time check kar sakte hain
+
+```sh
+date +%T
+
+Result --> 19:51:46
+```
+
+- 👇 Yah kahan se sirf time ko dekh sakte hain
+
+```sh
+date +%H:%M
+
+Result --> 19:54
+```
+
 <!-- - 👇
+
+```sh
+
+```
+
+- 👇
+
 ```sh
 
 ``` -->
@@ -814,80 +888,57 @@ tail /etc/group
 
 ### Commands Started
 
-- 1 Open Terminal Then go Downloaded file directory
+- 👇 Open Terminal Then go Downloaded file directory
 
 ```sh
  # Yah Command Usse Directory Mein Maujud Sara files ko show karta hai
  /
 ```
 
-- 2 Yah Command software ko install karne ka hai
+- 👇 Yah Command software ko install karne ka hai
 
 ```sh
 sudo dpkg -i file_name
 ```
 
-- Uske bad yah Command Run karna hai
+- 👇 Uske bad yah Command Run karna hai
 
 ```sh
 sudo apt install -f
 ```
 
-### Commands End
+### Ubuntu Dircet Software install related Commands
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-## Ubuntu Downloaded Software install related Commands
-
-### Commands Started
-
-- 1 Open Terminal Then go Downloaded file directory
+- 👇 Yah command se software ko Search 🔍 kar sakte hain
 
 ```sh
- # Yah Command Usse Directory Mein Maujud Sara files ko show karta hai
- /
+# Exaple this  --> sudo search kdeconnect
+
+sudo search software_name
 ```
 
-- 2 Yah Command software ko install karne ka hai
+- 👇 Yah command se Agar Linux & Ubuntu ke liye software available hai to direct Install kar sakte hain
 
 ```sh
-sudo dpkg -i file_name
+# Exaple this  --> sudo apt install vlc
+
+sudo apt install software_name
 ```
 
-- Uske bad yah Command Run karna hai
+- 👇 Yah command se Agar Linux & Ubuntu ke liye software available hai to direct Install kar sakte hain
 
 ```sh
-sudo apt install -f
+# Exaple this  --> sudo apt install vlc
+
+sudo apt install software_name
+```
+
+- 👇 Yah command se Agar Linux & Ubuntu ke liye software available hai to direct Install kar sakte hain
+
+```sh
+# Exaple this  --> sudo apt remove vlc
+
+sudo apt remove software_name
 ```
 
 ### Commands End
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
