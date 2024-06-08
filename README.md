@@ -317,6 +317,9 @@ df -h
 
 ### Commands End
 
+### Example
+![screencapture-ap-south-1-console-aws-amazon-ec2-instance-connect-ssh-2024-06-08-10_50_08](https://github.com/mdsomad/git-using-commands/assets/103892160/0426b929-9d41-4099-8101-cdef2f6ff10c)
+
 <br/>
 <br/>
 <br/>
@@ -343,6 +346,8 @@ lsblk
 # 👇 Yah command se check kar sakte hain volume Mein data hai kya Nahin Agar result data Aaya to volume Mein data Nahin Hai Aur Agar result ext4 filesystem Aaya to volume Mein data Hai
 file -s /dev/xvdb
 ```
+### Example
+![Screenshot from 2024-06-06 20-18-04](https://github.com/mdsomad/git-using-commands/assets/103892160/8c24fce4-36e3-4ad0-82f7-cd1a1c0b677b)
 
 ```sh
 sudo
@@ -362,6 +367,9 @@ mkfs.ext4 /dev/xvdb
 # 👇 Yah command se check kar sakte hain volume Mein data hai kya Nahin Agar result data Aaya to volume Mein data Nahin Hai Aur Agar result ext4 filesystem Aaya to volume Mein data Hai
 file -s /dev/xvdb
 ```
+
+### Example
+![Screenshot from 2024-06-06 20-20-03](https://github.com/mdsomad/git-using-commands/assets/103892160/739aa5ea-5164-4eee-bfdd-fe9b3f1b1a29)
 
 ```sh
 mkdir /data
@@ -401,6 +409,7 @@ ls -lh
 # Check volume use Size
 df -h
 ```
+![Screenshot from 2024-06-06 20-26-50](https://github.com/mdsomad/git-using-commands/assets/103892160/cff4512c-476b-4498-8daf-73f8aa6e8b4c)
 
 ```sh
 # Create test file
