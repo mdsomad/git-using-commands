@@ -10,3 +10,4 @@
 ![Application-Load-Balancer-Target group Created](https://github.com/mdsomad/git-using-commands/assets/103892160/644bc5d0-728d-4b9b-841f-cc1f97f32719)
 ## Create Application Load Balancer configuration
 ![Application Load Balancer  configuration](https://github.com/mdsomad/git-using-commands/assets/103892160/c5e8e3f9-e681-446b-a6bf-40f680f1e9d3)
+![Application Load balancers  Instances Security groups Attach Configuration](https://github.com/mdsomad/git-using-commands/assets/103892160/09feed1a-5861-4094-a794-d3eef4be0ee9)
