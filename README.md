@@ -92,6 +92,7 @@ git config --global user.email ""
 ```sh
 git config --list
 ```
+
 ```sh
 # Output
 user.name=Your Name
