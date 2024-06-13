@@ -1,4 +1,4 @@
-# Git Using Commands
+# Doker Using Commands
 
 <br/>
 <br/>
@@ -7,380 +7,241 @@
 <br/>
 <br/>
 
-## Git Using Command or Install
+## Docker Install
 
-- 👇 Windows Git Download Link
-- [Git Download Website Link](https://www.git-scm.com/download/win)
+- 👇 Windows Docker Download Link
+- [Docker Download Website Link](https://www.docker.com/products/docker-desktop/)
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
 
-<br/>
-<br/>
-<br/>
-
-## Ubuntu Git installation Commands
-
-- [Digital Ocean Git installation in ubuntu documentation Link check](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-20-04)
-
-- 👇 Yah command se system mein agar git install hai to version check kar sakte hain
+- 👇 Yah command se check kar sakte hain docker install hai kya Nahin Aur Docker Ka Version
 
 ```sh
-git --version
-```
-
-- 👇 Agar output same Aa Raha hai to Aapka system mein git pahle se install hai
-
-```sh
-Output  👇
-
-git version 2.25.1
-
-```
-
-- 👇 yah command package ko update karne ke liye kam Aata Hai
-
-```sh
-sudo apt update
-```
-
-- 👇 yah command se git Install kar sakte hain system mein
-
-```sh
-sudo apt install git
-```
-
-- 👇 Verify the version of Git currently installed on the Ununtu machine & server
-
-```sh
-git --version
-```
-
-```sh
-# Output
-git version 2.26.2
-```
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-### 👇 Git config & Configure Commands
-
-First Stap git install ke bad
-Open git bash type this commands
-<br/>
-
-- 👇 Git Mein User name add karne ka command Yah hai
-
-```sh
-git config --global user.name ""
+docker -v
 ```
 
 <br/>
 
-- 👇 Git Mein User email add karne ka command Yah hai
+- 👇 Yah command se docker ka service start kar sakte hain
 
 ```sh
-git config --global user.email ""
+systemctl start docker.service
 ```
 
 <br/>
 
-- 👇 Git Mein User name or User email add Hua kya Nahin check karne ke liye yah command hai
+- 👇 Yah command se docker ka service status check kar sakte hain
 
 ```sh
-git config --list
-```
-
-```sh
-# Output
-user.name=Your Name
-user.email=youremail@domain.com
-...
-```
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-- 👇 Yah command present director Mein pahunch Chahta Hai
-
-```sh
-pwd
+systemctl status docker.service
 ```
 
 <br/>
 
-- 👇 Yah command porject ka git ke Hawale karta hai
+- 👇 Yah command se docker Image 🖼️ build kar sakte hain
 
 ```sh
-git init
+# yah command mein image ka custom name Aasan Nahin kar sakte
+
+docker build .
 ```
 
 <br/>
 
-- 👇 Git Status Check
+- 👇 Yah command se doctor ka image 🖼️ build karne ke sath Custom name bhi assign kar sakte hain
 
 ```sh
-git status
+docker build -t my-img .
 ```
 
 <br/>
 
-- 👇 Git Mini Status check
+- 👇 Yah Command sa Custom name And tag breaking add Aur build & Create kar sakte hain
 
 ```sh
-git status -s
+# Example --> docker build -t mywebapp:01 .
+
+docker build -t custom_name_enter:01 .
 ```
 
 <br/>
 
-- 👇 git file ko add karta hai
+- 👇 Yah Command sa image 🖼️ ko Remove 🗑️ ❌ kar sakte hain
 
 ```sh
-git add --a
+# Example This --> docker rmi mywebapp:02
+
+docker rmi image_name:tag
 ```
 
 <br/>
 
-- 👇 Upar wala hi Jaisa same kaam karta hai Example this is --> git add --a
+- 👇 Yah command se tag Diya Hua image 🖼️ ko Run 🚀 kar sakte hain
 
 ```sh
-git add .
+# Example This --> docker run -d --rm --name "mywebapp02" -p 3001:3000 mywebapp:02
+docker run -d --rm --name "Name_Enter" -p 3001:3000 image_name:tag
 ```
 
 <br/>
 
-- 👇 Yah hai Commit kar sakta hai this is command
+- 👇 Yah command se docker ka ALL Images ka list dekh 👀 sakte hain
 
 ```sh
-git commit -m "Message type"
+docker image ls
 ```
 
 <br/>
 
-- 👇 Iska kaam hai commit History Dikhta hai
+- 👇 Process status yah command se docker ka Running 🚀 Container📦 check & dekh 👀 sakte hain
 
 ```sh
-git log
+docker ps
 ```
 
 <br/>
 
-- 👇 Iska kaam hai commit History Dikhta hai
+- 👇 Yah command se docker ka image ko run kar sakte hain
 
 ```sh
-git log
+# yah command Mein Ek issue hai yah Application Container ke Andar hi accessible Hota Hai Bahar Mein accessible Nahin Hota Hai
+
+docker run image_id
 ```
 
 <br/>
 
-- 👇 iska kaam hai (commit) filter karka dekh sakte hai (Example jaise ke 1 3 4 )
+- 👇 Yah command se Container 📦 ko Run karne ke sath application ko container ke bahar bhi access kar sakte hain yah basically port binding hai
 
 ```sh
-git log -p -1
+docker run -p 3000:3000 image_id
 ```
 
 <br/>
 
-- 👇 Yah hai Terminal Clear karne ka command
+- 👇 Yah command se Docker Container 📦 ko run karne ke sath hi Terminal </> ko free kar deta hai dusra kam karne ke liye
 
 ```sh
-clear
+docker run -d -p 3000:3000 image_id
 ```
 
 <br/>
 
-- 👇 Iska kaam hai github ka project clone karta hai This is command
+- 👇 Yah Command se Container 📦 ko Run to Karega lekin Stop 🚫 karne ke sath hi Container 📦 ko remove 🗑️ ❌ bhi kar dega
 
 ```sh
-git clone (url paste)
+docker run -d --rm -p 3000:3000 image_id
 ```
 
 <br/>
 
-- 👇 Present directory ka file show karta hai This is command
+- 👇 Yah Command se Container 📦 ko Run 🚀 karne ke sath hi Aap khud ka Custom name bhi assign kar sakte hain Container ko
 
 ```sh
-ls
+docker run -d --rm --name "Custom name assign" -p 3000:3000 image_id
 ```
 
 <br/>
 
-- 👇 Iska kaam hai Hidden File show karta hai This is command
+- 👇 Yah Command se background ka Running 🚀 And stop 🚫
+  Container 📦 ka All list dekh 👀 sakte hain details ke sath
 
 ```sh
-ls -lart
+docker ps -a
 ```
 
 <br/>
 
-- 👇 Yah command edit Kiya Hua code Ko dikhana hai
+- 👇 Yah command se Docker Container 📦 ko Stop 🚫 kar sakte hain
 
 ```sh
-git diff
+docker stop NAMES_ENTER
+
+# Example This ---> docker stop wizardly_raman
 ```
 
 <br/>
 
-- 👇 Iska kaam last commit sa comper & match code changes code Ko dikhana hai this is command
+- 👇 Yah command se Docker Container 📦 ko Remove 🗑️ ❌ kar sakte hain
 
 ```sh
-git diff --staged
+docker rm NAMES_ENTER
+```
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+# Pre Defined
+
+```sh
+DOCKER IMAGES
+
+docker pull nginx
+
+docker run -p 8080:80
+```
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+- 👇 Yah command se doctor Mein local machine Mein login 👤🔐🔑 kar sakte hain
+
+```sh
+docker login
 ```
 
 <br/>
 
-- 👇 New Folder Create This is command
+- 👇 Yah command se bhi doctor ka All images 🖼️ dekh h 👀 sakte hain
 
 ```sh
-touch somad.html
+docker images
 ```
 
 <br/>
 
-- 👇 Code ko changes recover karna ka kam aata hai This is command
+- 👇 Yah donon command se docker image 🖼️ ko Create and Docker Hub Mein push and upload 📤 kar sakte hain
 
 ```sh
-git checkout -f
+docker build -t mdsomad/mywebapp-demo:01 .
+docker push mdsomad/mywebapp-demo:tagname
 ```
 
 <br/>
-
-- 👇 Iska kam hai only staging area se piche la jata hai Tah hai File name--> text.html (galti se add kar diya to) This is command
-
-```sh
-git rm --cached text.html
-```
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 
-- 👇 Upar wala hi Jaisa same kam karta hai (galti se add kar diya to) This is command
+## docker-compose
 
 ```sh
-git restore --staged (Enter file name)
-```
+docker-compose up
 
-<br/>
+docker-compose down
 
-- 👇 File ko complete deleted karta hai This is command
-
-```sh
-git rm Enter File name
-```
-
-<br/>
-
-- 👇 New branch Create Kar sakta hai This is command
-
-```sh
-git branch Enter name
-```
-
-<br/>
-
-- 👇 Branch Change & Switched Kar sakta hai This is command
-
-```sh
-git checkout Enter Branch Name
-```
-
-<br/>
-
-- 👇 Iska kaam hai Master Branch ka Other Branch Se Marge karta hai This is command
-
-```sh
-1. yah sirf Master Branch Mein hi Kam Karega
-git merge Enter Branch Name
-```
-
-<br/>
-
-- 👇 Iska kaam hai Branch Create karne ke sath or switch bhi kar deta hai This is command
-
-```sh
-git checkout -b Enter Create Branch name
-```
-
-<br/>
-
-- 👇Yah Command hai Branch ko deletd karta hai
-
-```sh
-git checkout -b Enter Create Branch name
-```
-
-<br/>
-
-- 👇Yah Command File ko Rename karta hai
-
-```sh
-git mv Enter file current name Enter New Name
-```
-
-<br/>
-
-- 👇 Yah Command File ko Delete Karta hai
-
-```sh
-git rm Enter File Name
-```
-
-<br/>
-
-- 👇 Yah Command git Branch ko Rename & NameChange Karta hai
-
-```sh
-1. First yah karna hai
-git branch -m Enter old Name Then Enter New Name
-```
-
-<br/>
-
-- 👇 Yah command GitHub Account Remote Repository Mein New Branch Name Ka Sath Upload & push Karta hai
-
-```sh
-2. Second yah karna hai
-git push origin :Enter Old Name Then Enter New Name
-```
-
-<br/>
-
-- 👇 Yah command GitHub Account Mein push & Export Karta hai
-
-```sh
-git push origin master
-```
-
-<br/>
-
-- 👇 Yah command GitHub Account Mein pull & Import Karta hai
-
-```sh
-git pull origin master
-```
-
-<br/>
-
-- 👇 Yah Hai Git ko update karne ka command
-
-```sh
-git update-git-for-windows
-```
-
-<br/>
-
-- 👇 Yah Windows ka Command hai New Folder Create karta hai
-
-```sh
-MD Enter File.Nmae
+docker-compose up -d  <-- yah command detach Mod per ran karta hai
 ```
