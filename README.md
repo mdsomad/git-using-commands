@@ -103,6 +103,13 @@ docker image ls
 docker ps
 ```
 
+- 👇 Yah Command se background ka Running 🚀 And stop 🚫
+  Container 📦 ka All list dekh 👀 sakte hain details ke sath
+
+```sh
+docker ps -a
+```
+
 <br/>
 
 - 👇 Yah command se docker ka image ko run kar sakte hain
@@ -143,15 +150,6 @@ docker run -d --rm -p 3000:3000 image_id
 
 ```sh
 docker run -d --rm --name "Custom name assign" -p 3000:3000 image_id
-```
-
-<br/>
-
-- 👇 Yah Command se background ka Running 🚀 And stop 🚫
-  Container 📦 ka All list dekh 👀 sakte hain details ke sath
-
-```sh
-docker ps -a
 ```
 
 <br/>
