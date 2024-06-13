@@ -41,6 +41,16 @@ systemctl status docker.service
 ```
 
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+### Image 🖼️ build Related commands
 
 - 👇 Yah command se docker Image 🖼️ build kar sakte hain
 
@@ -57,7 +67,6 @@ docker build .
 ```sh
 docker build -t my-img .
 ```
-
 <br/>
 
 - 👇 Yah Command sa Custom name And tag breaking add Aur build & Create kar sakte hain
@@ -70,47 +79,27 @@ docker build -t custom_name_enter:01 .
 
 <br/>
 
-- 👇 Yah Command sa image 🖼️ ko Remove 🗑️ ❌ kar sakte hain
-
-```sh
-# Example This --> docker rmi mywebapp:02
-
-docker rmi image_name:tag
-```
-
-<br/>
-
-- 👇 Yah command se tag Diya Hua image 🖼️ ko Run 🚀 kar sakte hain
-
-```sh
-# Example This --> docker run -d --rm --name "mywebapp02" -p 3001:3000 mywebapp:02
-docker run -d --rm --name "Name_Enter" -p 3001:3000 image_name:tag
-```
-
-<br/>
-
 - 👇 Yah command se docker ka ALL Images ka list dekh 👀 sakte hain
 
 ```sh
 docker image ls
 ```
 
-<br/>
 
-- 👇 Process status yah command se docker ka Running 🚀 Container📦 check & dekh 👀 sakte hain
-
-```sh
-docker ps
-```
-
-- 👇 Yah Command se background ka Running 🚀 And stop 🚫
-  Container 📦 ka All list dekh 👀 sakte hain details ke sath
-
-```sh
-docker ps -a
-```
 
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+## Docker Images  🖼️ And Container 📦 Run 🚀 Related Commands
 
 - 👇 Yah command se docker ka image ko run kar sakte hain
 
@@ -168,6 +157,58 @@ docker stop NAMES_ENTER
 
 ```sh
 docker rm NAMES_ENTER
+```
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+## Images 🖼️ tags Related Run 🚀 Commands
+
+- 👇 Yah Command sa image 🖼️ ko Remove 🗑️ ❌ kar sakte hain
+
+```sh
+# Example This --> docker rmi mywebapp:02
+
+docker rmi image_name:tag
+```
+
+<br/>
+
+- 👇 Yah command se tag Diya Hua image 🖼️ ko Run 🚀 kar sakte hain
+
+```sh
+# Example This --> docker run -d --rm --name "mywebapp02" -p 3001:3000 mywebapp:02
+docker run -d --rm --name "Name_Enter" -p 3001:3000 image_name:tag
+```
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+## Container 📦 Running 🚀 and Stop🚫 related Check 👀 Commands
+
+
+- 👇 Process status yah command se docker ka Running 🚀 Container📦 check & dekh 👀 sakte hain
+
+```sh
+docker ps
+```
+
+- 👇 Yah Command se background ka Running 🚀 And stop 🚫
+  Container 📦 ka All list dekh 👀 sakte hain details ke sath
+
+```sh
+docker ps -a
 ```
 
 <br/>
