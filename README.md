@@ -151,13 +151,7 @@ docker stop NAMES_ENTER
 # Example This ---> docker stop wizardly_raman
 ```
 
-<br/>
 
-- 👇 Yah command se Docker Container 📦 ko Remove 🗑️ ❌ kar sakte hain
-
-```sh
-docker rm NAMES_ENTER
-```
 
 <br/>
 <br/>
@@ -204,11 +198,18 @@ docker run -d --rm --name "Name_Enter" -p 3001:3000 image_name:tag
 docker ps
 ```
 
-- 👇 Yah Command se background ka Running 🚀 And stop 🚫
+- 👇 Yah Command se background ka Running 🚀 And stop 🚫 & Exist
   Container 📦 ka All list dekh 👀 sakte hain details ke sath
 
 ```sh
 docker ps -a
+```
+<br/>
+
+- 👇 Yah Command se Docker Container 📦 ko Remove 🗑️ ❌ kar sakte hain
+
+```sh
+docker rm NAMES_ENTER
 ```
 
 <br/>
