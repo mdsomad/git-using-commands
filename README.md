@@ -40,7 +40,7 @@ systemctl start docker.service
 systemctl status docker.service
 ```
 
-<br
+<br/>
   
 - 👇 Pre Defined
 
