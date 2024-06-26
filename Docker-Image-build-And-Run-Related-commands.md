@@ -159,3 +159,19 @@ docker ps -a
 ```sh
 docker rm NAMES_ENTER
 ```
+
+<br/>
+
+- 👇 Yah Command se ALL Docker Containers 📦 ko Remove 🗑️ ❌ kar sakte hain
+
+```sh
+sudo docker rm -f $(sudo docker ps -a -q)
+```
+
+<br/>
+
+- 👇 Yah Command se ALL Docker Images 📦 ko Remove 🗑️ ❌ kar sakte hain
+
+```sh
+sudo docker image remove -f $(sudo docker images -a -q)
+```
