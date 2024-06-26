@@ -39,21 +39,10 @@ systemctl start docker.service
 ```sh
 systemctl status docker.service
 ```
-er rm NAMES_ENTER
-```
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-# Pre Defined
+<br
+  
+- 👇 Pre Defined
 
 ```sh
 DOCKER IMAGES
