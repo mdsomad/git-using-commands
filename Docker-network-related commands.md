@@ -7,7 +7,9 @@
 - 👇 Yah command Se Khud 👨🏻‍💻 ka custom network 📶ᯤ create kar sakte hain
 
 ```bash
-docker network create -d bridge my-custom-network
+# Example --> docker network create -d bridge my-custom-network
+
+docker network create -d bridge network_name
 ```
 
 <br/>
@@ -42,6 +44,19 @@ docker run -it --network=none busybox
 docker network inspect bridge
 ```
 
+<br/>
+
+- 👇 Yah Command se Create Kiya Hua Network ᯤ 📶 ko Remove 🗑️❌ kar sakte hain
+
+```bash
+# Example --> docker network rm my-custom-network
+
+docker network rm custom-network_name
+```
+
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
