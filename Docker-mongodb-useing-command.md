@@ -33,7 +33,7 @@ docker run -d -p 27020:27017 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB
 - 👇 Is Url Se Connect kar sakte hain MongoDB ko MongoDB Compass se
 
 ```bash
-mongodb://mongoadmin:scecret@localhost:27020/
+mongodb://admin:password@localhost:27020/
 ```
 
 <br/>
@@ -81,44 +81,3 @@ docker run -d -p 27020:27017 --net my-custom-network -e MONGO_INITDB_ROOT_USERNA
 docker run -d -p 4444:4444 -e PORT=4444 -e MONGO_URL=mongodb://admin:password@container_name --net my-custom-network somadev-server
 ```
 
-<br/>
-
-- 👇
-
-```bash
-
-```
-
-<br/>
-
-- 👇
-
-```bash
-
-```
-
-<br/>
-
-- 👇
-
-```bash
-
-```
-
-<br/>
-
-- 👇
-
-```bash
-
-```
-
-<br/>
-
-- 👇
-
-```bash
-
-```
-
-<br/>
