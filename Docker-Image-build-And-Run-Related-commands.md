@@ -88,6 +88,7 @@ docker run -d --rm -p 3000:3000 image_id
 docker run -d --rm --name "Custom name assign" -p 3000:3000 image_id
 ```
 
+
 <br/>
 
 - 👇 Yah command se Docker Container 📦 ko Stop 🚫 kar sakte hain
@@ -97,6 +98,17 @@ docker stop NAMES_ENTER
 
 # Example This ---> docker stop wizardly_raman
 ```
+
+<br/>
+
+- 👇 Yah Command se Stop 🚫 & Existing Container 📦 ko Run 🚀 kar sakte hain
+
+```sh
+docker start -ai container_name
+```
+
+
+
 <br/>
 <br/>
 <br/>
@@ -132,9 +144,6 @@ docker run -d --rm --name "Name_Enter" -p 3001:3000 image_name:tag
 <br/>
 <br/>
 <br/>
-
-
-
 
 
 ## Container 📦 Running 🚀 and Stop🚫 related Check 👀 Commands
